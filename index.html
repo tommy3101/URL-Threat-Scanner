@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>url checker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="background-video">
+        <video autoplay muted loop>
+            <source src="{{ url_for('static', filename='background.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="container">
+        <h1>URL Safety Check</h1>
+        <form method="POST">
+            <label for="url">Enter a URL to check:</label>
+            <input type="text" id="url" name="url" placeholder="e.g., http://example.com" required>
+            <button type="submit">Check URL</button>
+        </form>
+
+        {% if result %}
+            <div class="result {% if 'safe' in result %}safe{% elif 'Malicious' in result %}malicious{% endif %}">
+                <h2>Result:</h2>
+                <p>{{ result }}</p>
+            </div>
+        {% endif %}
+    </div>
+
+</body>
+</html>
