@@ -7,4 +7,14 @@
 
 here are some screenshots of my project
 ![url checker - Google Chrome 01-12-2024 14_37_12](https://github.com/user-attachments/assets/897ed5a9-df38-4d9f-9c90-1456d8a76543)
-![url checker - Google Chrome 01-12-2024 14_37_56](https://github.com/user-attachments/assets/04b579a1-d4b9-4d41-9921-fc7af0d3cf7f)
+
+If the input website is safe the applicaation ensures it is safe to use:
+
+![url checker - Google Chrome 01-12-2024 14_42_57](https://github.com/user-attachments/assets/abbb4a5e-7079-4c2c-a7a6-243a42d5a71e)
+
+If the iniput website is malicious then it will show alert meesage:
+
+![url checker - Google Chrome 01-12-2024 14_43_14](https://github.com/user-attachments/assets/4a495352-625a-4f5e-8607-5e4d88b44fb2)
+
+
+Careful before entering into LINKS which comes from unknown sources and it doesn't COST to cross check or verify the legibility of the website or any links...
