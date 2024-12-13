@@ -1,0 +1,4 @@
+runtime: python39
+entrypoint: gunicorn -b :8080 app:app
+env_variables:
+  VIRUSTOTAL_API_KEY: "81c8726e1f6c951765fecced6022a54bf4987931e667dc0f2eeeb75257fa1658"
