@@ -4,6 +4,9 @@
 * Designed a responsive user interface with HTML and CSS to ensure seamless user interaction and usability.
 * Integrated external API services to enhance threat analysis accuracy and improve system performance.
 * Focused on web security and user safety by implementing efficient backend processes and clear, user-friendly outputs.
+* Finally to apply my cloud knowledge, i have deployed my project in Google Cloud platform's APP ENGINE.
+
+* URL-THREAT_SCANNER project link = https://url-threat-scanner-444616.el.r.appspot.com
 
 here are some screenshots of my project
 ![URL Threat Scanner - Google Chrome 14-12-2024 00_46_55](https://github.com/user-attachments/assets/d0bf9f8d-164d-4782-8a00-5c4535c67afc)
